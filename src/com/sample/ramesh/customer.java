@@ -5,7 +5,11 @@ public class customer {
 	customer(){
 		System.out.println("default construrctor called");
 	}
-	
+	void Customer(String firstname, String lasttname){
+		this.firstname = firstname;
+		
+		
+	}
 	public  long customerid;
 	public String firstname;
 	public String lasttname;
